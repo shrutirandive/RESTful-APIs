@@ -15,3 +15,12 @@ This project is a Python-based REST API capable of handling structured JSON data
 **Message Queuing**: RabbitMQ used for queuing and handling asynchronous messaging.
 
 **Security**: API secured using RS256 token mechanism, with Google IDP used for signing and validating Bearer tokens.
+
+## Steps to run
+Start Redis Server
+
+then Redis CLI, you can check with command ```PING``` if the redis has started or not
+
+Need to setup Elasticsearch by making changes in yml file in config folder and elastic search path
+
+then start Elasticsearch.bat file in bin folder 
